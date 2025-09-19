@@ -12,8 +12,8 @@ digit.forEach((input,index)=>{
 digit.forEach((input,index)=>{
 	input.addEventListener('keydown',(e)=>{
 	if(e.key=="Backspace" && index>0){
-		e.target.value="";
 		digit[index-1].focus();
+
 	};
 });
 })
